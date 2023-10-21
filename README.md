@@ -1,13 +1,12 @@
-# Definition
+# Beschreibung
 
-The "Ballistic" program is a simple Java application designed to calculate the vertical position of an object at a given time when it is thrown upwards from an initial position with a specified initial velocity. The calculation is based on the following physics formula:
-
+Das Programm "Ballistic" ist eine einfache Java-Anwendung, die entwickelt wurde, um die vertikale Position eines Objekts zu berechnen, zu einem bestimmten Zeitpunkt, wenn es von einer bestimmten anfänglichen Position aus mit einer festgelegten anfänglichen Geschwindigkeit nach oben geworfen wird. Die Berechnung basiert auf der folgenden physikalischen Formel:
 
 x0 + v0 * t - g * t^2 / 2
 
+Wo:
 
-Where:
-- x0 represents the initial vertical position or height (in meters) from which the object is launched.
-- v0 is the initial vertical velocity (in meters per second) of the object.
-- t is the time (in seconds) at which you want to calculate the vertical position.
-- g is the acceleration due to gravity, with a constant value of 9.81 m/s².
+x0 repräsentiert die anfängliche vertikale Position oder Höhe (in Metern), von der aus das Objekt gestartet wird.
+v0 ist die anfängliche vertikale Geschwindigkeit (in Metern pro Sekunde) des Objekts.
+t ist die Zeit (in Sekunden), zu der Sie die vertikale Position berechnen möchten.
+g ist die Erdbeschleunigung mit einem konstanten Wert von 9,81 m/s².
